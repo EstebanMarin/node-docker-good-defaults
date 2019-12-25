@@ -1,4 +1,4 @@
-##Ensure master is updated with fixes, point to remote branch
+## Ensure master is updated with fixes, point to remote branch
 
 ```
 git remote add upstream  https://github.com/BretFisher/node-docker-good-defaults.git
