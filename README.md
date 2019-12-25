@@ -1,3 +1,11 @@
+##Ensure master is updated with fixes, point to remote branch
+
+```
+git remote add upstream  https://github.com/BretFisher/node-docker-good-defaults.git
+git fetch upstream
+git branch --set-upstream-to=upstream/master master
+```
+
 ## Node + Docker Hello World, for Showing Good Defaults for Using Node.js in Docker
 
 > This tries to be a "good defaults" example of starting to use Node.js in Docker for local development and shipping to production with basic bells, whistles, and best practices. Issues/PR welcome.
